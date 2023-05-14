@@ -1,0 +1,11 @@
+.carDetailPage {
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: .1rem .1rem .5rem rgba(75, 75, 75, 0.493), -.1rem -.1rem .5rem rgba(75, 75, 75, 0.493);
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 900px;
+    margin: auto;
+}

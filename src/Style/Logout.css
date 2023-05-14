@@ -1,0 +1,24 @@
+.logoutButton {
+	cursor: pointer;
+	padding: .5rem;
+	width: 3rem;
+	height: 3rem;
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
+	background-color: #1976d2;
+	border-radius: 50%;
+	transition: box-shadow 1s cubic-bezier(0.165, 0.84, 0.44, 1), background-color 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.logoutButton:hover {
+	background-color: #1976f2;
+	box-shadow: .3rem .3rem .8rem rgba(78, 78, 78, 0.4),
+		-.3rem -.3rem .8rem rgba(78, 78, 78, 0.4);
+}
+
+.logoutIcon {
+	width: 100% !important;
+	height: 100% !important;
+	color: white;
+}

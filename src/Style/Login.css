@@ -1,0 +1,137 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgb(143, 143, 143);
+    display: flex;
+}
+
+.loginForm {
+    padding: 50px;
+}
+
+.loginForm>h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+.redForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    background-color: #ff383b;
+}
+
+.loginIcons {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 48px;
+}
+
+/* .fa-facebook {
+	color: white;
+} */
+
+.icons>div {
+    margin-right: 20px;
+    width: 48px;
+    height: 48px;
+}
+
+/* .facebook {
+	background-color: black;
+	border-radius: 30px;
+} */
+.loginBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.loginBox>p {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.forgotPass {
+    margin-top: 60px;
+}
+
+.loginBox button {
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+    background-color: #ff383b;
+    height: 50px;
+}
+
+.loginBox .loginLoader {
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 50px;
+    width: 240px;
+}
+
+.loginBox .loginLoader>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    scale: 1.5;
+}
+
+.loginBox button:hover {
+    background-color: #ff383b;
+    cursor: pointer;
+}
+
+.loginBox button:active {
+    background-color: #ff484b;
+}
+
+.redForm>h1 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.redForm>p {
+    padding: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.loginContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.loginLink:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+#students tbody tr:nth-child(even) {
+    background-color: #f3f3f3ce;
+}
+
+#students {
+    height: 100%;
+    position: relative;
+}
